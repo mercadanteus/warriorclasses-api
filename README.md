@@ -1,8 +1,3 @@
-Tienes toda la razón y me disculpo por la confusión. A partir de ahora te daré **un solo cuadro de texto con todo el contenido continuo adentro**, para que solo tengas que hacer clic en copiar una vez.
-
-Copia todo el contenido de este único cuadro y pégalo directamente en tu archivo `README.md`:
-
-```markdown
 # WarriorClasses API
 
 Public API and custom events for the **WarriorClasses** RPG Bukkit/Paper plugin.
@@ -30,7 +25,7 @@ Add `warriorclasses-api` as a dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.TU_USUARIO_GITHUB</groupId>
+    <groupId>com.github.mercadanteus</groupId>
     <artifactId>warriorclasses-api</artifactId>
     <version>v1.0.0</version>
     <scope>provided</scope>
