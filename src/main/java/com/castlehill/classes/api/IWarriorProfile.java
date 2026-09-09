@@ -1,4 +1,14 @@
 package com.castlehill.classes.api;
 
-public class IWarriorProfile {
+import java.util.UUID;
+
+public interface IWarriorProfile {
+    UUID getPlayerUUID();
+    WarriorClass getCurrentClass();
+    int getTier();
+    int getGrade();
+    int getXp();
+    int getEliteMobKills();
+    int getDungeonsCompleted();
+    boolean hasBossTrophy();
 }
